@@ -1,0 +1,21 @@
+html
+    head
+        title Login
+        link(rel="stylesheet", href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css")
+
+    body.container
+
+        h2 Login
+        p Please login to start your session
+
+        form(name="loginForm", method="POST")
+            label(for="username") Username
+            input(type="text", name="username", placeholder="Username").form-control
+            label(for="password") Password
+            input(type="password", name="password", placeholder="Password").form-control
+            input(type="submit",value="login").btn.btn-primary.mt-3
+
+        p Don't have an account?
+            a(href="/auth/register") register here 
+        p 
+            a(href="/forgot-password") forgot password       

@@ -1,0 +1,35 @@
+
+.logout{
+    float: right !important;
+}
+.nav_bar ul{
+    list-style-type: none;
+    margin: 0;
+    float:right;
+}
+.nav_list li{
+    float: left;
+    padding: 10px;
+    color: #fff;
+}
+.nav_list li a{
+    color: #fff;
+}
+.nav_list li a:hover{
+    text-decoration: none;
+}
+li.logout{
+    padding: 0 !important; 
+    margin-top: 5px;
+    margin-left:15px;
+}
+@media(max-width:768px){
+.nav_list{
+    display: none;
+}
+.img-logo {
+    width: 18%;
+}
+
+
+}

@@ -1,0 +1,9 @@
+.detailSingle{
+    padding: 30px;
+    margin-top: 30px;
+    background: #f7f7f7;
+
+}
+.detailSingle span{
+    font-style: italic;
+}

@@ -1,0 +1,23 @@
+
+.side_bar ul{
+    list-style-type: none;
+}
+.side_bar ul{
+    margin: 0;
+    padding: 0;
+}
+.side_bar ul li {
+    margin: 15px 0 15px 10px;
+}
+.side_bar ul li a{
+    color: #fff;
+    padding: 10px;
+    font-size: 22px;
+    
+}
+.side_bar ul li a:hover,
+.side_bar ul li a:focus,
+.side_bar ul li a:active{
+    color:#ded0b7;
+    text-decoration:none;
+}

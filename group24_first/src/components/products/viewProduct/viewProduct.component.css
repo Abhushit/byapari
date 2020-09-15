@@ -1,0 +1,13 @@
+.btn-icons{
+    border: none;
+    margin-left: 5px;
+    background: transparent;
+    transition: 0.3s;
+}
+.btn-icons:hover{
+    transform:scale(1.1);
+}
+.btn-icons:active, .btn-icons:focus{
+    border: none;
+    outline: none;
+}
